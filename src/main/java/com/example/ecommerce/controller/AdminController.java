@@ -45,7 +45,7 @@ import java.util.UUID;
         ) {
             try {
 // File system path (outside classpath)
-                String uploadDir = "D:\\lnctu\\ecommerce\\src\\main\\resources\\static\\images";
+                String uploadDir = "C:\Users\Lenovo\Downloads\ecommerce\ecommerce\src\main\resources\static\images";
                 File uploadFolder = new File(uploadDir);
                 if (!uploadFolder.exists()) {
                     uploadFolder.mkdirs(); // create folder if it doesn't exist
